@@ -1,0 +1,14 @@
+.wrap {
+    display: flex;
+}
+.Users-block {
+    width: 50%;
+}
+
+.Posts-block {
+    width: 50%;
+}
+
+.border-show {
+    border: pink 1px solid;
+}

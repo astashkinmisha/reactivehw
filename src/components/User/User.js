@@ -1,9 +1,10 @@
-export default function User ({user: {id, name, age}}){
+export default function User ({user, showPosts}){
 
     return (
         <div>
-            id: {id} - {name} <br/>
-            age: {age} <br/>
+            id: {user.id} - {user.name} <br/>
+            <button onClick={()=> showPosts(user)}>details</button>
+
         </div>
     );
 }

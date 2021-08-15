@@ -1,4 +1,4 @@
-export default function Post ({post: {title, body, id}}){
+export default function Post ({post: {id, title}}){
     return (
         <div>
             {id} - {title}

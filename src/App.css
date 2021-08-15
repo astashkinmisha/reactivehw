@@ -4,15 +4,3 @@
     background: silver;
 
 }
-
-.Posts {
-    border: black 1px solid;
-    margin: 5px;
-    background: lightgrey;
-}
-
-.Comments {
-    border: black 1px solid;
-    margin: 5px;
-    background: gray;
-}
